@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu&display=swap');
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+}
+
+.navbar {
+    background-color: transparent !important;
+    height: 10vh;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: lightcoral !important;
+}
+
+.navbar-brand span {
+    color: #00E8E8;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover {
+    color: #00E8E8 !important;
+}
+
+.active .nav-link {
+    color: lightcoral !important;
+}
+
+.menu-right-btn {
+    padding: 13px 46px;
+    margin-right: 4%;
+    color: lightcoral !important;
+    background-color: transparent;
+    border-color: lightcoral !important;
+    transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover {
+    color: #fff !important;
+    background-color: lightcoral !important;
+}
+
+.site-content {
+    height: 90vh;
+    background-image: url(img/Book3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title,
+.site-desc {
+    color: white;
+    font-family: 'Righteous';
+}
+
+.site-title {
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.site-desc {
+    font-size: 14px;
+    padding-left: 15%;
+}
+
+.site-btn1 {
+    margin-left: 20%;
+    background-color: black;
+    color: #fff;
+}
+
+.site-btn2 {
+    background-color: #fff !important;
+    color: black;
+}
+
+.site-btn1,
+.site-btn2 {
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+
+.col-md-4 .card {
+    width: 20rem;
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+}
